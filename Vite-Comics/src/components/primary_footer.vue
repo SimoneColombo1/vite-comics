@@ -109,6 +109,7 @@
 
 .primary-footer{
     background-image: url(../assets/img/footer-bg.jpg);
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -119,6 +120,7 @@
     height: 30rem;
     width: 30rem;
     background-repeat: no-repeat;
+    
 
 }
 .links-container{

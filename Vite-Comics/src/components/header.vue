@@ -52,6 +52,7 @@
     justify-content: space-between;
     background-color: #ffffff;
     padding: 1rem;
+    align-items: center;
 }
 .Header-container ul{
 display: flex;
