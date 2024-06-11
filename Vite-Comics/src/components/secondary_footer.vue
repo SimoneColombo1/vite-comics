@@ -6,11 +6,11 @@
 <section class="Jumbo">
 
    
-<div><span>LOGO</span> DC MERCHANDISE </div>
-<div><span>LOGO</span> DIGITAL COMICS</div>
-<div><span>LOGO</span> SUBSCRIPTION</div>
-<div><span>LOGO</span> COMIC SHOP LOCATOR</div> 
-<div><span>LOGO</span> DC POWER VISA</div>
+<div><img src="../assets/img/buy-comics-digital-comics.png"> DC MERCHANDISE </div>
+<div><img src="../assets/img/buy-comics-merchandise.png"id="shirt">   DIGITAL COMICS</div>
+<div><img src="../assets/img/buy-comics-subscriptions.png" id="subscription"> SUBSCRIPTION </div>
+<div><img src="../assets/img/buy-comics-shop-locator.png" id="locator"> COMIC SHOP LOCATOR</div> 
+<div><img src="../assets/img/buy-dc-power-visa.svg" id="visa">  POWER VISA</div>
 </section>
 </template>
 
@@ -22,8 +22,39 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 .Jumbo div{
     padding: 2rem;
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+  
+    
+}
+
+.Jumbo img{
+    width: 4rem;
+    height: 5rem;
+    margin-right: 1rem;
+}
+
+#visa{
+    width: 5rem;
+    height: 5rem;
+}
+
+#locator{
+    width: 3rem;
+    height: 4rem;
+}
+#subscription{
+    width: 4rem;
+    height: 4rem;
+}
+
+#shirt{
+    width: 4rem;
+    height: 4rem;
 }
 </style>

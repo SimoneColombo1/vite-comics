@@ -5,7 +5,7 @@
 <template>
 <header>
     <div class="Header-container">
-        <div class="DC-Logo">DC</div>
+        <img  src="../assets/img/dc-logo.png" class="DC-Logo">
         <ul>
             <li>
                <a href="">       CHARACTERS</a>
@@ -43,13 +43,15 @@
 </template>
 
 <style scoped>
-
+.DC-Logo{
+    margin-left: 12rem
+}
 .Header-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #ffffff;
-    padding: 2rem;
+    padding: 1rem;
 }
 .Header-container ul{
 display: flex;
@@ -71,13 +73,11 @@ padding: 1rem 0;
 .Header-container a{
     color:#58595d ;
 }
-.active{
-   
-    border-bottom: #0282f9 solid 3px;
-    
-}
+
 .active a{
-    color: #0282f9;
+    color: #0282f9; 
+    border-bottom: #0282f9 solid 3px;
+    padding-bottom: 1rem;
 }
 
 

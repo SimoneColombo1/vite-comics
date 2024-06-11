@@ -101,14 +101,25 @@
 </li>
 </ul>
 </div>
-
+<div class="logo-background"></div>
 </section>
 </template>
 
 <style scoped>
 
 .primary-footer{
-    background-color: #222222;
+    background-image: url(../assets/img/footer-bg.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-background{
+    background-image: url(../assets/img/dc-logo-bg.png);
+    height: 30rem;
+    width: 30rem;
+    background-repeat: no-repeat;
+
 }
 .links-container{
     

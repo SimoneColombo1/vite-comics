@@ -12,19 +12,19 @@
     <h2> FOLLOW US</h2> 
         </li>
         <li>
-            LOGO
+           <img src="../assets/img/footer-facebook.png">
         </li>
         <li>
-           LOGO 
+           <img src="../assets/img/footer-twitter.png">
         </li>
         <li>
-           LOGO 
+           <img src="../assets/img/footer-youtube.png">
         </li>
         <li>
-            LOGO
+            <img src="../assets/img/footer-pinterest.png">
         </li>
         <li>
-            LOGO
+            <img src="../assets/img/footer-periscope.png">
         </li>
        </ul> 
 
