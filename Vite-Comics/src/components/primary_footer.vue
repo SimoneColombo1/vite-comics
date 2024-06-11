@@ -10,24 +10,25 @@
 <li>
 <h1>DC COMICS</h1>
 </li>
-Characters
 <li>
-   Comics 
+  <a href="">Characters</a></li>
+<li>
+   <a href="">Comics </a>
 </li>
 <li>
-   Movies 
+   <a href="">Movies </a>
 </li>
 <li>
-    TV
+      <a href="">TV</a>
 </li>
 <li>
-    GAMES
+     <a href="">GAMES</a>
 </li>
 <li>
-    VIDEOS
+   <a href="">VIDEOS</a> 
 </li>
 <li>
-    NEWS
+   <a href="">NEWS</a> 
 </li>
 
 </ul>
@@ -36,68 +37,67 @@ Characters
     <h1>DC</h1>
 </li>
 <li>
-    Terms Of Use
+    <a href="">Terms Of Use</a>
 </li>
 <li>
-    
+    <a href="">Privacy Policy (New)</a>
 </li>
 <li>
-    
+   <a href="">Ad Choises</a> 
 </li>
 <li>
-    
+    <a href=""> Advertising</a>
 </li>
 <li>
-    
+    <a href="">Jobs</a>
 </li>
 <li>
-    
+    <a href="">Subscriptions</a>
 </li>
 <li>
-    
+    <a href="">Talent Workshops</a>
 </li>
 <li>
-    
+    <a href="">CPSC Certificates</a>
 </li>
 <li>
-    
+    <a href="">Ratings</a>
 </li>
 <li>
-    
+    <a href="">Shop Help</a>
 </li>
 <li>
-    
+    <a href="">Contact Us</a>
 </li>
 </ul>
 <ul>
+   <li><h1>SITES</h1></li>
     <li>
-    
+    <a href="">DC</a>
 </li>
 <li>
-    
+    <a href="">MAD Magazine</a>
 </li>
 <li>
-    
+    <a href="">DC Kids</a>
 </li>
 <li>
-    
+    <a href="">DC Universe</a>
 </li>
 <li>
-    
+    <a href="">DC Power Visa</a>
 </li>
-<li>
-    
-</li>
+
 </ul>
 <ul>
     <li>
-    
+    <h1>SHOP</h1>
 </li>
 <li>
-    
+    <a href="">Shop DC</a>
 </li>
 <li>
-    
+    <a href="">Shop DC Collectibles</a>
 </li>
 </ul>
 </div>
@@ -106,5 +106,32 @@ Characters
 </template>
 
 <style scoped>
+
+.primary-footer{
+    background-color: #222222;
+}
+.links-container{
+    
+    display: flex;
+    flex-direction: row;
+    width: 30rem;
+    flex-wrap: wrap;
+}
+.links-container ul{
+    padding: 1rem;
+}
+.links-container li{
+    list-style: none;
+}
+.links-container li a{
+    color: #7e7e6f;
+}
+.links-container li a:hover{
+    color: white;
+}
+
+.links-container li h1{
+    color: white;
+}
 
 </style>
