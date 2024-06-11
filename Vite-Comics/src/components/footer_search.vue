@@ -59,7 +59,7 @@
     color: white;
     
 }
-.Search :hover{
+.Search button:hover{
     background-color: #0777df;
 }
 </style>
