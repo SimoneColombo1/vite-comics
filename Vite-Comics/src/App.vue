@@ -17,7 +17,13 @@ export default{
 </script>
 
 <template>
-<DcHeader/>
+<DcHeader />
+<DcMain />
+<footer>
+    <SecondaryFooter />
+    <PrimaryFooter />
+    <FooterSearch />
+</footer>
 </template>
 
 <style scoped>
