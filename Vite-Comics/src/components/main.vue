@@ -1,10 +1,22 @@
 <script>
+import cards from './cards.vue';
+export default{
+    data() {
+        return {
+            
+        }
+    },
+    components:{
+        cards
+    }
+}
 
 </script>
 
 <template>
 <main>
 <h1> ---> Contens Goes Here <---</h1>
+<cards />
 </main>
 </template>
 
