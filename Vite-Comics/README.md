@@ -12,3 +12,5 @@ Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo 
 
 1 creo un component per le cards 
 2 importo l'array di oggetti con le cards
+2  le stampo nel component per le cards con un v for
+4 infine modello le cards con il css per renderle esteticamente visibili in pagina
