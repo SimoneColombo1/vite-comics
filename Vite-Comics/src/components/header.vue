@@ -53,27 +53,27 @@
     background-color: #ffffff;
     padding: 1rem;
     align-items: center;
-}
-.Header-container ul{
+
+ ul{
 display: flex;
 flex-direction: row;
 
 }
-.Header-container li{
+ li{
 list-style: none;
 margin: 0 1rem;
 padding: 1rem 0;
 }
-
-.Header-container a:hover{
-    color:#0282f9;
-}
-
-
-
 .Header-container a{
     color:#58595d ;
+
+&:hover{
+    color:#0282f9;
+}} 
 }
+
+
+
 
 .active a{
     color: #0282f9; 

@@ -23,8 +23,8 @@
     flex-direction: row;
     justify-content: center;
     
-}
-.Jumbo div{
+
+ div{
     padding: 2rem;
     display: flex;
     flex-direction: row;
@@ -33,11 +33,11 @@
     
 }
 
-.Jumbo img{
+ img{
     width: 4rem;
     height: 5rem;
     margin-right: 1rem;
-}
+}}
 
 #visa{
     width: 5rem;

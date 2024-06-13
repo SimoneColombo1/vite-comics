@@ -31,7 +31,7 @@
 </nav>
 </template>
 
-<style scoped>
+<style   lang="scss"  scoped>
 .Search{
     display: flex;
     flex-direction: row;
@@ -43,13 +43,14 @@
 .socials{
     display: flex;
     flex-direction: row;
-}
-.socials li{
+
+ li{
     list-style: none;
     padding: 1rem;
 }
-.socials h2{
+ h2{
     color: #0777df;
+}
 }
 .Search button{
     width: 8rem;
@@ -58,8 +59,8 @@
     border: solid 2px #0777df;
     color: white;
     
-}
-.Search button:hover{
+
+&:hover{
     background-color: #0777df;
-}
+}  }
 </style>

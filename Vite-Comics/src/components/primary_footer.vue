@@ -129,22 +129,22 @@
     flex-direction: row;
     width: 30rem;
     flex-wrap: wrap;
-}
-.links-container ul{
+
+ ul{
     padding: 1rem;
 }
-.links-container li{
+ li{
     list-style: none;
-}
-.links-container li a{
+
+ a{
     color: #7e7e6f;
 }
-.links-container li a:hover{
+ a:hover{
     color: white;
 }
 
-.links-container li h1{
+ h1{
     color: white;
-}
+}}}
 
 </style>
