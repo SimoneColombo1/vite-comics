@@ -15,12 +15,12 @@ export default{
 
 <template>
 <main>
-<h1> ---> Contens Goes Here <---</h1>
+
 <cards />
 </main>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 main{
     background-color:#1c1c1c ;
     padding: 2rem;

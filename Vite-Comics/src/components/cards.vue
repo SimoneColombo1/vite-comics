@@ -16,7 +16,7 @@
 </template>
 
 
-<style>
+<style lang="scss">
 
 
 

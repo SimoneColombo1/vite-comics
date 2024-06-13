@@ -42,7 +42,7 @@
 </header>
 </template>
 
-<style scoped>
+<style scoped  lang="scss">
 .DC-Logo{
     margin-left: 12rem
 }

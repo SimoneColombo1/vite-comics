@@ -14,7 +14,7 @@
 </section>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .Jumbo{
     background-color:#0282f9 ;
     color: white;

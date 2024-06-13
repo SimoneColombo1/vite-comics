@@ -105,7 +105,7 @@
 </section>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 
 .primary-footer{
     background-image: url(../assets/img/footer-bg.jpg);

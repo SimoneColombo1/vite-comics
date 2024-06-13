@@ -8,4 +8,7 @@ Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo 
 5 poi passo al main footer dove metto un immagine come sfondo e creo 4 liste composte da link
 6 creo l'ultima sezione del footer con un bottone e un altra lista con una scritta blu e 4 loghi
 
+-------------------------------------------------------------------------------------------------------------------------------
 
+1 creo un component per le cards 
+2 importo l'array di oggetti con le cards
