@@ -1,5 +1,7 @@
 <script>
 import cards from './cards.vue';
+
+
 export default{
     data() {
         return {
@@ -7,15 +9,19 @@ export default{
         }
     },
     components:{
-        cards
+        cards,
+        
     }
 }
 
 </script>
 
 <template>
-<main>
 
+<main>
+<div class="jumbo-background">
+<span><h3>CURRENT SERIES</h3></span>
+</div>
 <cards />
 </main>
 </template>
@@ -23,7 +29,28 @@ export default{
 <style scoped lang="scss">
 main{
     background-color:#1c1c1c ;
-    padding: 2rem;
+   
     color: white;
+}
+.jumbo-background{
+    background-image: url(../assets/img/jumbotron.jpg);
+    width: 100vw;
+    height: 30rem;
+    display: flex;
+    background-size: cover;
+
+    span{
+        display: flex;
+        
+        padding: .5rem;
+        
+        background-color: #0282f9;
+        color: white;
+        position: absolute;
+        left: 23rem;
+        top: 37.5rem;
+        text-align: center;
+    }
+    
 }
 </style>

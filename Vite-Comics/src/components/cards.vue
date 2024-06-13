@@ -1,4 +1,5 @@
 <script>
+
 export default{
     data() {
         return {
@@ -78,6 +79,7 @@ export default{
 ]
         }
     },
+    
 }
 
 </script>
@@ -88,7 +90,7 @@ export default{
 
 
 <template>
-
+<jumbotron />
 <section class="section-cards">
    <article class="cards">
     <div class="card" v-for="(card,index) in cards_list" :key="index">
@@ -119,7 +121,7 @@ justify-content: center;
 .blue-button{
        display: flex;
        justify-content: center;
-
+       padding-bottom: 3rem;
     button{
     width: 9rem;
     height: 2.5rem;
