@@ -64,22 +64,22 @@ list-style: none;
 margin: 0 1rem;
 padding: 1rem 0;
 }
-.Header-container a{
+ a{
     color:#58595d ;
 
 &:hover{
     color:#0282f9;
-}} 
 }
 
+} 
 
-
-
+}
 .active a{
     color: #0282f9; 
     border-bottom: #0282f9 solid 3px;
     padding-bottom: 1rem;
 }
+
 
 
 </style>
